@@ -1,0 +1,30 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.apple-idea {
+    font-size: 20px;
+}
+
+.apple-link {
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(0, 136, 255);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.apple-link:hover {
+    text-decoration: underline;
+    color: red;
+}
