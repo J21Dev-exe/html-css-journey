@@ -1,0 +1,32 @@
+p {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.signup-type {
+    color: rgb(108, 117, 125);
+}
+.signup-bar {
+    width: 390px;
+    border-style: solid;
+    border-color: rgb(118, 118, 118);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.signup-description {
+    color: rgb(108, 117, 125);
+}
+.signup-button {
+    font-size: 16px;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 156px;
+    padding-right: 156px;
+
+}
