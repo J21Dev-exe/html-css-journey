@@ -1,0 +1,17 @@
+p {
+    font-family: Montserrat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: 55px;
+}
+.order-title {
+    font-size: 45px;
+    font-weight: bold;
+}
+.order-description {
+    font-size: 25px;
+}
+.order-delivery {
+    text-decoration: underline;
+}
