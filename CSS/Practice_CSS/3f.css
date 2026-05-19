@@ -1,0 +1,28 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 28px;
+}
+
+.income {
+    font-size: 30px;
+}
+
+.currency {
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgb(108, 117, 125);
+}
+
+.income-change1 {
+    color: green;
+}
+
+.time {
+    color: rgb(108, 117, 125);
+}
+
+.income-change2 {
+    color: rgb(204, 0, 0);
+}
