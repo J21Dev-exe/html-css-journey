@@ -1,0 +1,41 @@
+p {
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 35px;
+}
+
+.web-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.web-id1 {
+    font-size: 18px;
+    color: rgb(108, 117, 125);
+}
+
+.web-id2 {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(108, 117, 125);
+}
+
+.web-id2:hover {
+    text-decoration: underline;
+    color: royalblue;
+}
+
+.web-description {
+    width: 580px;
+    line-height: 30px;
+}
+
+.about-web {
+    margin-top: 15px;
+}
+
+.web-auth {
+    color: steelblue;
+}
