@@ -1,0 +1,22 @@
+.yt-card {
+    border-style: solid;
+    background-color: rgb(46, 46, 46);
+    color: aliceblue;
+    font-family: Arial;
+    width: 370px;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-top: 14px;
+    padding-bottom: 0px;
+}
+.yt-install {
+    font-size: 25px;
+    font-weight: 550;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.yt-description {
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 350px;
+}
