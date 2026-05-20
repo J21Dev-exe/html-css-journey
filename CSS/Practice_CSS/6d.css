@@ -1,0 +1,49 @@
+.uber-service {
+    font-family: Arial;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.uber-pick-location,
+.uber-drop-location {
+    display: block;
+    width: 380px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(108, 117, 125);
+    font-family: Arial;
+    font-size: 14px;
+    border-style: none;
+    background-color: rgb(218, 216, 216);
+    color: black;
+}
+button {
+    border: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    transition: opacity 0.15s;
+}
+.uber-request-now {
+    background-color: black;
+    color: white;
+}
+
+.uber-request-later {
+    background-color: rgb(218, 216, 216);
+    color: black;
+    margin-left: 18px;
+}
