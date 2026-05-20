@@ -4,10 +4,17 @@ p {
     vertical-align: middle;
     display: inline-block;
 }
-.response-question {
+
+.response-text {
     width: 230px;
     margin-right: 20px;
 }
+.response-question:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(38, 130, 210);
+}
+
 .response-yes,
 .response-no {
     font-size: 16px;
@@ -20,9 +27,21 @@ p {
     border-style: none;
     cursor: pointer;
 }
+
 .response-yes:hover {
     background-color: rgb(38, 210, 92);
+    color: white;
 }
+.response-yes:active {
+    opacity: 0.6;
+    background-color: rgb(0, 198, 63);;
+}
+
 .response-no:hover {
     background-color: rgb(210, 38, 38);
+    color: lightgray;
+}
+.response-no:active {
+    opacity: 0.6;
+    background-color: rgb(198, 0, 0);;
 }
