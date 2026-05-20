@@ -1,7 +1,19 @@
-.search-bar-google {
+.google-logo {
+    width: 400px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    mix-blend-mode: multiply;
+}
+.google-searchbar {
     font-size: 16px;
     font-family: Arial;
-    width: 550px;
+    display: block;
+    width: 500px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
