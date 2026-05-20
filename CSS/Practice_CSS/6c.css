@@ -39,4 +39,12 @@ input {
     display: block;
     width: 275px;
     font-size: 16px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.signup-button:hover {
+    background-color: rgb(11, 77, 142);
+}
+.signup-button:active {
+    opacity: 0.8;
 }
