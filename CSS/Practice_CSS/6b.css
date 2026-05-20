@@ -1,0 +1,22 @@
+p {
+    font-size: 18px;
+    line-height: 26px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.response-question {
+    width: 230px;
+    margin-right: 20px;
+}
+.response-yes,
+.response-no {
+    font-size: 16px;
+    display: inline-block;
+    width: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: none;
+    cursor: pointer;
+}
