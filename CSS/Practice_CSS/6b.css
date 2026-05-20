@@ -20,3 +20,9 @@ p {
     border-style: none;
     cursor: pointer;
 }
+.response-yes:hover {
+    background-color: rgb(38, 210, 92);
+}
+.response-no:hover {
+    background-color: rgb(210, 38, 38);
+}
