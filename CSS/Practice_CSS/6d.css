@@ -41,9 +41,20 @@ button {
     background-color: black;
     color: white;
 }
-
+.uber-request-now:hover {
+    opacity: 0.8;
+}
+.uber-request-now:active {
+    opacity: 0.6;
+}
 .uber-request-later {
     background-color: rgb(218, 216, 216);
     color: black;
     margin-left: 18px;
+}
+.uber-request-later:hover {
+    background-color: rgb(185, 184, 184);
+}
+.uber-request-later:active {
+    opacity: 0.6;
 }
