@@ -1,16 +1,14 @@
-.facebook-card {
+div {
     font-family: Arial;
     width: 200px;
     display: inline-block;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    transition: 0.15s;
 }
-.neko-pfp {
-    width: 200px;
-    height: 220px;
-    display: inline-block;
-    object-fit: cover;
-    object-position: 75% 25%;
-}
+
 p {
     display: block;
     margin-top: 0px;
@@ -19,6 +17,14 @@ p {
     margin-right: 0px;
     line-height: 20px;
 }
+
+img {
+    width: 200px;
+    height: 220px;
+    display: inline-block;
+    object-fit: cover;
+}
+
 .profile-name {
     margin-top: 6px;
     font-weight: 600;
@@ -26,10 +32,12 @@ p {
     margin-left: 8px;
 
 }
+
 .profile-mutual {
     font-size: 14px;
     margin-left: 6px;
 }
+
 .friend-add {
     font-size: 14px;
     width: 110px;
@@ -44,4 +52,17 @@ p {
     margin-top: 8px;
     margin-left: 6px;
     margin-bottom: 10px;
+    transition: 0.15s;
+}
+
+.friend-add:hover {
+    background-color: rgb(11, 77, 142);
+}
+
+.friend-add:active {
+    opacity: 0.8;
+}
+
+.neko-pfp {
+    object-position: 75% 25%;
 }
