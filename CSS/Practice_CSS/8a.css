@@ -1,0 +1,55 @@
+.insta-request {
+    width: 400px;
+    font-family: Roboto;
+}
+
+.insta-pfp,
+.insta-info,
+.insta-button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.insta-pfp {
+    width: 80px;
+}
+.pfp-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+    object-position: 75% 25%;
+}
+
+.insta-info {
+    width: 180px;
+}
+
+.user-name {
+    font-weight: bold;
+    margin: 0px;
+}
+
+.user-id,
+.pfp-status {
+    color: gray;
+    margin: 0px;
+}
+
+.insta-button {
+    margin-left: 0px;
+}
+
+.follow-button {
+    background-color: rgb(29,155,240);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 8px 14px;
+
+    cursor: pointer;
+}
