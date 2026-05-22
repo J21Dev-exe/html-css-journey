@@ -1,6 +1,7 @@
 .insta-request {
     width: 400px;
     font-family: Roboto;
+    margin-bottom: 10px;
 }
 
 .insta-pfp,
@@ -18,7 +19,7 @@
     height: 60px;
     object-fit: cover;
     border-radius: 30px;
-    object-position: 75% 25%;
+    object-position: 70% 30%;
 }
 
 .insta-info {
@@ -34,6 +35,9 @@
 .pfp-status {
     color: gray;
     margin: 0px;
+}
+.pfp-status {
+    font-size: 14px;
 }
 
 .insta-button {
