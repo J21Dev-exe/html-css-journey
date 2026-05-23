@@ -1,19 +1,24 @@
 .flex-layout {
     display: flex;
     flex-direction: row;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    justify-content: space-between;
 }
 
 .no1-column {
     background-color: lightblue;
-    width: 50px;
 }
 
 .no2-column {
     background-color: lightpink;
-    flex: 1;
 }
 
 .no3-column {
     background-color: lightgreen;
-    width: 75px;
+}
+
+.no4-column {
+    background-color: lightcoral;
 }
