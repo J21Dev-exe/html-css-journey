@@ -4,6 +4,8 @@
     border-width: 1px;
     border-style: solid;
     border-color: gray;
+    align-items: center;
+    height: 50px;
     justify-content: space-between;
 }
 
@@ -13,12 +15,4 @@
 
 .no2-column {
     background-color: lightpink;
-}
-
-.no3-column {
-    background-color: lightgreen;
-}
-
-.no4-column {
-    background-color: lightcoral;
 }
