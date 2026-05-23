@@ -1,13 +1,12 @@
 .grid-layout {
     display: grid;
-    grid-template-columns: 50px 1fr 75px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
 }
-.no1-column {
-    background-color: lightblue;
-}
-.no2-column {
+.no1-column,
+.no2-column,
+.no3-column,
+.no4-column {
     background-color: lightpink;
-}
-.no3-column {
-    background-color: lightblue;
 }
