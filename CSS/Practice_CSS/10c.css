@@ -1,0 +1,43 @@
+.byju-navbar-container {
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(120, 82, 178);
+    color: white;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 850px;
+    font-family: Arial;
+}
+
+.home-bar {
+    width: 50px;
+    font-weight: 600;
+    margin-left: 16px;
+}
+
+.search-item {
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    padding: 8px 14px;
+    width: 400px;
+}
+
+.download-button {
+    width: 110px;
+
+}
+
+.download {
+    background-color: rgb(120, 82, 178);
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-size: 15px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
