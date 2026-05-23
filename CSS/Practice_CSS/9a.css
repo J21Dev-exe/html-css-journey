@@ -1,10 +1,13 @@
 .grid-layout {
     display: grid;
-    grid-template-columns: 200px 75px;
+    grid-template-columns: 50px 1fr 75px;
 }
 .no1-column {
     background-color: lightblue;
 }
 .no2-column {
     background-color: lightpink;
+}
+.no3-column {
+    background-color: lightblue;
 }
