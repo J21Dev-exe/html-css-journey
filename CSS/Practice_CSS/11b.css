@@ -1,0 +1,62 @@
+.mail-container {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    width: 390px;
+    font-family: Inter, system-ui, -apple-system;
+    padding: 16px;
+    padding-top: 8px;
+}
+
+.header {
+    font-size: 12px;
+    color: rgb(108, 117, 125);
+    margin-bottom: 12px;
+}
+
+.mail-profile-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mail-profile-picture {
+    width: 50px;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    object-position: 75% 25%;
+}
+
+.mail-profile-info {
+    flex: 1;
+    margin-left: 12px;
+    line-height: 20px;
+}
+
+.mail-info-bar-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail-username,
+.mail-about {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mail-time {
+    color: rgb(108, 117, 125);
+    font-size: 12px;
+}
+
+.mail-about {
+    font-size: 14px;
+}
+
+.mail-description {
+    color: rgb(108, 117, 125);
+    font-size: 14px;
+}
