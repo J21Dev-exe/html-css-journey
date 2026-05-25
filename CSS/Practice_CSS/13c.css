@@ -1,0 +1,32 @@
+.cloth-screen-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(185, 185, 185);
+    width: 320px;
+    height: 400px;
+    position: relative;
+
+    .discount {
+        position: absolute;
+        font-family: Arial;
+        background-color: black;
+        color: white;
+        top: 10px;
+        right: 0px;
+        padding: 6px 8px;
+        font-size: 14px;
+    }
+}
+
+.cloth-preview {
+    width: 300px;
+    height: 350px;
+}
+
+.cloth-img {
+    width: 100%;
+    height: 95%;
+    object-fit: contain;
+    object-position: bottom;
+}
