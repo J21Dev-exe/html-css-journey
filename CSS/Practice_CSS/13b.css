@@ -16,4 +16,14 @@
         top: -15px;
         left: -15px;
     }
+    .time {
+        position: absolute;
+        background-color: black;
+        color: white;
+        font-family: Arial;
+        padding: 2px 4px;
+        font-size: 14px;
+        right: 8px;
+        bottom: 8px;
+    }
 }
