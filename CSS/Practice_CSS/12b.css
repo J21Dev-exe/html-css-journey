@@ -7,3 +7,45 @@
     bottom: 0px;
     width: 100px;
 }
+
+.ovrlay-flex {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content {
+    background-color: white;
+    width: 340px;
+    border-radius: 6px;
+    font-family: Arial;
+    padding: 20px;
+    line-height: 34px;
+    letter-spacing: 0.2px;
+}
+
+.content-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content-info {
+    font-size: 16px;
+}
+
+.close-button {
+    color: black;
+    font-size: 14px;
+    padding: 3px 8px;
+    background-color: rgb(247, 247, 247);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 2px;
+}
